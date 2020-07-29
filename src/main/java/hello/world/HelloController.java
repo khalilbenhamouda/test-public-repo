@@ -8,6 +8,7 @@ import io.micronaut.http.annotation.Get;
 public class HelloController {
 
 	// test
+    // Another line
 
     @Get(produces = MediaType.TEXT_PLAIN)
     public String index() {
